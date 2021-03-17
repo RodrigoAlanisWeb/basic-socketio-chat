@@ -1,0 +1,41 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma-rtl.min.css";
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f0f0f0;
+}
+
+.chat {
+    height: 80%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.chat .msgs .msgs__title {
+    font-size: 25px;
+    text-align: center;
+}
+
+.chat .msgs .data .msg {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.chat .form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chat .form .field {
+    width: 80%;
+    margin: 0px;
+}

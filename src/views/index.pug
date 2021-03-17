@@ -1,0 +1,14 @@
+extends ./template.pug
+
+block content
+    .box 
+        input.input#username(type="text" placeholder="Enter Your Username")
+    div.box.chat
+        .msgs 
+            h2.msgs__title Messages 
+            .data#msgs 
+        .form 
+            .field 
+                .control 
+                    input.input#text(type="text" placeholder="Enter Your Message")
+            button.button.is-primary#btn Send
